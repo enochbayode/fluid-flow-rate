@@ -1,15 +1,15 @@
 import tkinter as tk
 from tkinter import ttk
-from PIL import Image, ImageTk
+# from PIL import Image, ImageTk
 from math import pi,sqrt
 
 root = tk.Tk()
-root.title('MEE 307 GROUP 2')
+root.title('Fluid flow rate')
 root.geometry('1600x800')
 
-image = Image.open("engineering.jpg")
-photo = ImageTk.PhotoImage(image)
-lbl = ttk.Label(root, image=photo)
+# image = Image.open("engineering.jpg")
+# photo = ImageTk.PhotoImage(image)
+lbl = ttk.Label(root)
 lbl.pack()
 
 def get_value():
